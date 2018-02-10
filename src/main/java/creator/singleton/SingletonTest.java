@@ -53,7 +53,6 @@ public class SingletonTest {
                         for (int i = 0; i < 1000000000; i++) {
 //                        StaticInnerClassSingleton creator.single = StaticInnerClassSingleton.getInstance();
 //                        HungryManSingleton creator.single = HungryManSingleton.getInstance();
-
 //                        LazyManSingleton creator.single = LazyManSingleton.getInstance();
                             EnumSingleton single = EnumSingleton.instance;
                         }
