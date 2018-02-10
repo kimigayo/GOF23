@@ -5,7 +5,7 @@ import creator.builder.director.CarDirector;
 import creator.builder.factory.AotuoCarFactory;
 import creator.builder.product.Car;
 
-/**
+/**建造者模式
  * Created by chenbinbin on 2018/2/7.
  */
 public class BuilderTest {

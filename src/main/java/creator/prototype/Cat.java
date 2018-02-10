@@ -3,7 +3,7 @@ package creator.prototype;
 import java.io.*;
 import java.util.Date;
 
-/**
+/**原型模式：浅拷贝、深度拷贝
  * Created by chenbinbin on 2018/2/9.
  */
 public class Cat implements Cloneable,Serializable {

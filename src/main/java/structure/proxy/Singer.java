@@ -1,4 +1,4 @@
-package structure.proxy.staticProxy;
+package structure.proxy;
 
 /**
  * Created by chenbinbin on 2018/2/10.

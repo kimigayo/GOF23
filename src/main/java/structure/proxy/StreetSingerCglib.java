@@ -1,4 +1,4 @@
-package structure.proxy.staticProxy;
+package structure.proxy;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
@@ -6,7 +6,7 @@ import net.sf.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
 
-/**
+/**动态代理
  * Created by chenbinbin on 2018/2/10.
  */
 public class StreetSingerCglib implements MethodInterceptor {

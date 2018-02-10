@@ -1,10 +1,10 @@
-package structure.proxy.staticProxy;
+package structure.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
-/**
+/**动态代理
  * Created by chenbinbin on 2018/2/10.
  */
 public class ArtistDynamicProxy {
