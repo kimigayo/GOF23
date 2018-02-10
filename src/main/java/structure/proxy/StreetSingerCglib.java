@@ -23,7 +23,6 @@ public class StreetSingerCglib implements MethodInterceptor {
         return enhancer.create();
     }
 
-    @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
         System.out.println("进入cglib代理");
         method.invoke(singer,objects);
